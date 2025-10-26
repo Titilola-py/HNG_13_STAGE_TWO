@@ -1,17 +1,18 @@
-# Python virtual environment
 venv/
 ENV/
 env/
-
-# Byte-compiled / cache
+.python-version
 __pycache__/
 *.py[cod]
 *.pyo
-
-# Environment variables
+*.egg-info/
+dist/
+build/
 .env
-
-# OS and IDE files
-.DS_Store
-*.vscode/
+.env.local
+.vscode/
 .idea/
+.DS_Store
+*.db
+*.sqlite3
+cache/
